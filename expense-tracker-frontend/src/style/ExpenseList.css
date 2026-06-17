@@ -1,0 +1,36 @@
+.expList-container {
+    height: 100vh;
+    padding: 10px;
+}
+
+.expList-container h2 {
+    color: blue;
+    font-weight: bold;
+    justify-self: center;
+    font-size: x-large;
+}
+
+.tablehead {
+    color: blue;
+    font-size: large;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:600px) {
+    .expList-container {
+        padding: 20px;
+    }
+
+    .expList-container h2 {
+        font-size: larger;
+    }
+
+    .tablehead {
+        font-size: small;
+    }
+
+}

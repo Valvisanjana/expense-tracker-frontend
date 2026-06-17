@@ -1,0 +1,53 @@
+.summeryCard-container {
+    width: 100%;
+    height: 80vh;
+    background-image: url(expense-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards {
+    width: 50%;
+    position: relative;
+    top: 30%;
+    margin: auto;
+    align-items: center;
+}
+
+.cards h3 {
+    font-size: x-large;
+    padding: 10px;
+    color: gray;
+    font-weight: 600;
+}
+
+.transaction-container {
+    background-color: skyblue;
+    padding: 40px;
+}
+
+@media screen and (max-width:600px) {
+    .summeryCard-container {
+        width: 100%;
+        height: 30vh;
+        background-image: url(expense-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .cards {
+        width: 80%;
+        position: relative;
+        top: 0%;
+        padding: 40px 20px;
+    }
+
+    .cards h3 {
+        font-size: medium;
+        padding: 5px;
+        color: rgb(61, 84, 128);
+        font-weight: bold;
+    }
+}

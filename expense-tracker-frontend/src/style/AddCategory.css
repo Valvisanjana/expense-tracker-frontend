@@ -1,0 +1,60 @@
+.category-container {
+    background-color: rgba(206, 201, 201, 0.768);
+    width: 100%;
+    height: 30vh;
+}
+
+.category-container h2 {
+    color: blue;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.form-container {
+    padding: 50px;
+}
+
+input {
+    font-size: 20px;
+    padding: 8px;
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+}
+
+.addCat {
+    font-size: 20px;
+    padding: 8px;
+    position: relative;
+    left: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:600px) {
+
+    .category-container h2 {
+        color: blue;
+        font-size: large;
+        font-weight: 900;
+    }
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        font-size: 15px;
+        padding: 10px 8px;
+        width: 80%;
+    }
+
+    .addCat {
+        font-size: 10px;
+        top: 10px;
+        width: 40%;
+    }
+}

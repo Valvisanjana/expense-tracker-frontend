@@ -1,0 +1,63 @@
+.incomeContainer {
+    width: 100%;
+}
+
+.addBox form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 239, 237);
+    padding: 20px;
+}
+
+.addBox input {
+    margin: 3px;
+}
+
+.addBox button {
+    font-size: large;
+}
+
+.IncomeList {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+.IncomeList h2 {
+    font-size: x-large;
+    justify-self: center;
+    font-weight: bold;
+    color: blue;
+    padding-top: 20px;
+}
+
+.table-container {
+    background-color: rgb(201, 219, 228);
+    margin: auto;
+    width: 80%;
+}
+
+.colm-contain {
+    color: rgb(147, 22, 22);
+    font-size: large;
+}
+
+@media screen and (max-width:600px) {
+    .IncomeList h2 {
+        font-size: medium;
+        padding-top: 10px;
+    }
+
+    .table-container {
+        width: 90%;
+    }
+
+    .colm-contain {
+        font-size: small;
+    }
+
+    .addBox button {
+        font-size: small;
+    }
+}

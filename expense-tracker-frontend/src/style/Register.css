@@ -1,0 +1,32 @@
+.register-page {
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+}
+
+.register-form {
+    position: relative;
+    top: 30%;
+    border: 2px solid gray;
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.input-container {
+    margin: 20px;
+}
+
+.reg-btn {
+    color: white;
+    background-color: blue;
+}
+
+@media screen and (max-width:650px) {
+    .register-form {
+        position: relative;
+        top: 20%;
+        width: 250px;
+    }
+}
