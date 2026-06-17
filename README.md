@@ -17,3 +17,6 @@ A React-based Expense Tracker application that helps users manage their income a
 - React Router
 - Axios
 - CSS
+
+## Expense Tracker Backend
+https://github.com/Valvisanjana/expense-tracker-backend.git
